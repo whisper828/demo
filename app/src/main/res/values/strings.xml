@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Bản ghi nhớ</string>
+
+    <string name="empty_data">Không có dữ liệu</string>
+    <string name="error_data">Không tải được</string>
+
+    <string name="all_task">Tất cả nhiệm vụ</string>
+    <string name="today_task">Nhiệm vụ hôm nay</string>
+
+    <string name="task_now">Nhiệm vụ tức thì</string>
+    <string name="task_add">Thêm nhiệm vụ</string>
+    <string name="task_daily">Lịch công việc</string>
+    <string name="task_date">ngày</string>
+    <string name="task_time">thời gian</string>
+    <string name="task_time_5_min">5 phút trước thời hạn</string>
+    <string name="task_time_work_type_1">Công việc</string>
+    <string name="task_time_work_type_2">Mạng sống</string>
+    <string name="task_time_work_type_3">riêng tư</string>
+    <string name="task_time_work_type_4">gia đình</string>
+    <string name="task_time_work_type_5">khác</string>
+    <string name="task_content_hint">Hãy điền nội dung nhiệm vụ</string>
+    <string name="task_request_enter_time">Vui lòng chọn thời gian</string>
+
+    <string name="alert_5_min">Nhắc nhở trước 5 phút</string>
+    <string name="alert_10_min">Nhắc nhở trước 10 phút</string>
+    <string name="alert_15_min">Nhắc nhở trước 15 phút</string>
+    <string name="alert_20_min">Nhắc nhở trước 20 phút</string>
+
+    <string name="cancel">Hủy bỏ</string>
+    <string name="confirm">Chắc chắn</string>
+
+    <string name="create_task_success">Tác vụ mới được tạo thành công</string>
+</resources>

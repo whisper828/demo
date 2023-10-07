@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="topTitle"
+            type="String" />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/include"
+            layout="@layout/include_top"
+            bind:title="@{topTitle}" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.drake.brv.PageRefreshLayout
+                android:id="@+id/page"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.stx.xhb.androidx.XBanner
+                        android:id="@+id/banner"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y191"
+                        android:layout_marginTop="@dimen/y8"
+                        app:AutoPlayTime="3000"
+                        app:isShowIndicatorOnlyOne="true"
+                        app:isShowTips="true"
+                        app:pageChangeDuration="800"
+                        app:pointNormal="@drawable/shape_point_normal"
+                        app:pointSelect="@drawable/shape_point_select"
+                        app:pointsPosition="RIGHT"
+                        app:tipTextSize="@dimen/sp12" />
+
+                    <RelativeLayout
+                        android:id="@+id/root_top"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/y38"
+                        android:layout_marginStart="@dimen/x35"
+                        android:layout_marginEnd="@dimen/x35"
+                        android:background="@drawable/shape_supervision_bg">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/x24"
+                            android:layout_marginTop="@dimen/y18"
+                            android:layout_marginBottom="@dimen/y18"
+                            android:text="@string/all_task"
+                            android:textColor="@color/white"
+                            bind:ignore="RelativeOverlap" />
+
+                        <ImageView
+                            android:id="@+id/icon_indicator_top"
+                            android:layout_width="@dimen/x28"
+                            android:layout_height="@dimen/y16"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="@dimen/x24"
+                            android:src="@drawable/icon_arrow_up"
+                            app:tint="@color/white"
+                            bind:ignore="ContentDescription" />
+
+                    </RelativeLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recycler_top"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/y16"
+                        android:layout_marginStart="@dimen/x35"
+                        android:layout_marginEnd="@dimen/x35"/>
+
+                    <RelativeLayout
+                        android:id="@+id/root_below"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/y16"
+                        android:layout_marginStart="@dimen/x35"
+                        android:layout_marginEnd="@dimen/x35"
+                        android:background="@drawable/shape_supervision_bg">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/x24"
+                            android:layout_marginTop="@dimen/y18"
+                            android:layout_marginBottom="@dimen/y18"
+                            android:text="@string/today_task"
+                            android:textColor="@color/white"
+                            bind:ignore="ContentDescription,RelativeOverlap" />
+
+                        <ImageView
+                            android:id="@+id/icon_indicator_below"
+                            android:layout_width="@dimen/x28"
+                            android:layout_height="@dimen/y16"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="@dimen/x24"
+                            android:src="@drawable/icon_arrow_up"
+                            app:tint="@color/white"
+                            bind:ignore="ContentDescription"  />
+
+                    </RelativeLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recycler_below"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/y16"
+                        android:layout_marginStart="@dimen/x35"
+                        android:layout_marginEnd="@dimen/x35"
+                        android:layout_marginBottom="@dimen/y16"/>
+
+                </LinearLayout>
+
+            </com.drake.brv.PageRefreshLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+</layout>

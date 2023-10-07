@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Workspace/package/model/app/src/main/res/drawable/bg_ripple.xml" value="0.38229166666666664" />
+        <entry key="..\:/Workspace/package/model/app/src/main/res/drawable/checkbox_style.xml" value="0.36302083333333335" />
+        <entry key="..\:/Workspace/package/model/app/src/main/res/drawable/divider_line_23.xml" value="0.36302083333333335" />
+        <entry key="..\:/Workspace/package/model/app/src/main/res/drawable/shape_alert_bg.xml" value="0.275" />
+        <entry key="..\:/Workspace/package/model/app/src/main/res/drawable/shape_submit_bg.xml" value="0.36302083333333335" />
+        <entry key="..\:/Workspace/package/model/app/src/main/res/drawable/shape_supervision_bg.xml" value="0.36302083333333335" />
+        <entry key="..\:/Workspace/package/model/app/src/main/res/drawable/shape_task_bg.xml" value="0.36302083333333335" />
+        <entry key="..\:/Workspace/package/model/app/src/main/res/layout/activity_splash.xml" value="0.19429347826086957" />
+        <entry key="..\:/Workspace/package/model/app/src/main/res/layout/dialog_alert.xml" value="0.25885416666666666" />
+        <entry key="..\:/Workspace/package/model/app/src/main/res/layout/dialog_date_selector.xml" value="0.36614583333333334" />
+        <entry key="..\:/Workspace/package/model/app/src/main/res/layout/dialog_time_picker.xml" value="0.36614583333333334" />
+        <entry key="..\:/Workspace/package/model/app/src/main/res/layout/fragment_contact.xml" value="0.33" />
+        <entry key="..\:/Workspace/package/model/app/src/main/res/layout/fragment_date.xml" value="0.33" />
+        <entry key="..\:/Workspace/package/model/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Workspace/package/model/app/src/main/res/layout/include_top.xml" value="0.25" />
+        <entry key="..\:/Workspace/package/model/app/src/main/res/layout/item_decompose_display.xml" value="0.5" />
+        <entry key="..\:/Workspace/package/model/app/src/main/res/layout/item_decompose_model.xml" value="0.346875" />
+        <entry key="..\:/Workspace/package/model/app/src/main/res/layout/item_supervision_model.xml" value="0.346875" />
+        <entry key="..\:/Workspace/package/model/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.17135416666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

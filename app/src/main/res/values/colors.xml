@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#1976D2</color>-->
+<!--    <color name="colorPrimaryDark">#1976D2</color>-->
+<!--    <color name="colorAccent">#1976D2</color>-->
+<!--    <color name="colorPrimary">#B00101</color>-->
+<!--    <color name="colorPrimaryDark">#B00101</color>-->
+<!--    <color name="colorAccent">#B00101</color>-->
+    <color name="colorPrimary">#64C116</color>
+    <color name="colorPrimaryDark">#64C116</color>
+    <color name="colorAccent">#64C116</color>
+    <color name="colorGray">#333</color>
+
+    <!--    <color name="theme">#1976D2</color>-->
+<!--    <color name="theme">#B00101</color>-->
+    <color name="theme">#64C116</color>
+
+    <color name="color_red">#B00101</color>
+    <color name="color_item_div">#eeeeee</color>
+    <color name="color_home_text">#292929</color>
+
+    <!-- 主要颜色 -->
+    <color name="red">#FF0000</color> <!-- 红色 -->
+    <!-- 红色 -->
+    <color name="black">#000000</color> <!-- 黑色 -->
+    <color name="white">#FFFFFF</color> <!-- 白色 -->
+    <!-- 草绿色 -->
+    <!-- 主题背景色 -->
+    <!-- 淡灰色 -->
+    <!-- 主题颜色 -->
+    <!-- 全透明 -->
+    <!-- 透明主题颜色 -->
+
+    <color name="gray_list_bg_color">#F8F8F8</color>
+    <color name="black_item_text_title_color">#292929</color>
+    <color name="black_item_text_subtitle_color">#696969</color>
+    <color name="black_item_text_hint_color">#999999</color>
+
+
+    <color name="gray_400">#FFBDBDBD</color>
+
+    <color name="color_item">#eeeeee</color>
+
+    <color name="top_title_text_color">#060606</color>
+    <color name="sub_title_text_color">#171717</color>
+
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="m"
+            type="com.example.application.data.TaskDecomposeModel" />
+
+        <import type="android.view.View"/>
+
+    </data>
+
+    <LinearLayout
+        android:id="@+id/action_bar_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_task_bg"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cb"
+            style="@style/CustomCheckboxTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|end"
+            android:layout_marginStart="@dimen/x15"
+            android:buttonTint="@color/theme"
+            android:checked="false"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/y18"
+            android:layout_marginBottom="@dimen/y18"
+            android:layout_marginEnd="@dimen/x22"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{m.title}"
+                android:textColor="@color/sub_title_text_color"
+                android:textSize="@dimen/sp14"
+                tools:ignore="RelativeOverlap"
+                tools:text="安排处理电子邮件和参加会议的时间" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/sub_title_text_color"
+                android:textSize="@dimen/sp12"
+                tools:ignore="RelativeOverlap"
+                android:layout_marginTop="@dimen/y8"
+                android:text="@{m.taskDate + ` ` + m.taskTime}"
+                tools:text="2023-10-11 12:36:00" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/icon_delete"
+            android:layout_width="@dimen/x38"
+            android:layout_height="@dimen/x38"
+            android:src="@mipmap/icon_delete"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="@dimen/x20"
+            tools:ignore="ContentDescription"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</layout>

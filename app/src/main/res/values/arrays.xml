@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="spinner_ring">
+        <item>@string/alert_5_min</item>
+        <item>@string/alert_10_min</item>
+        <item>@string/alert_15_min</item>
+        <item>@string/alert_20_min</item>
+    </string-array>
+
+    <string-array name="spinner_type">
+        <item>@string/task_time_work_type_1</item>
+        <item>@string/task_time_work_type_2</item>
+        <item>@string/task_time_work_type_3</item>
+        <item>@string/task_time_work_type_4</item>
+        <item>@string/task_time_work_type_5</item>
+    </string-array>
+
+</resources>
